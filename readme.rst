@@ -1,87 +1,61 @@
-###################
-CodeIgniter with React
-###################
-
-CodeIgniter code is little bit changed to accommodate theming structure. Also there are significant changes done and some are in progress, to support rendering using React JS.
-
-The changes are done in such a way, which put this repository in the state, in which it can be used in multiple ways, the default being rendering the views using React and it supports the default CodeIgniter views also.
 
 ###################
-How to Start
-###################
-Just checkout application/controllers/Welcome.php, and call `$this->render_view( string $view_name, ? array $vars );` function to render any view.
-
-The view file in react should reside at `assets/js/react/components/$view_name.js`
-
-
-
-###################
-What is CodeIgniter
+CodeIgniter con React Creado por DesarrolloIMAS
 ###################
 
-CodeIgniter is an Application Development Framework - a toolkit - for people
-who build web sites using PHP. Its goal is to enable you to develop projects
-much faster than you could if you were writing code from scratch, by providing
-a rich set of libraries for commonly needed tasks, as well as a simple
-interface and logical structure to access these libraries. CodeIgniter lets
-you creatively focus on your project by minimizing the amount of code needed
-for a given task.
+El código de CodeIgniter se ha cambiado un poco para adaptarse a la estructura de temática. También se han realizado cambios significativos y algunos están en curso, para admitir la representación con React JS.
+
+Los cambios se realizan de tal manera, que ponen a este repositorio en el estado, en el que se puede usar de varias maneras, siendo el valor predeterminado la visualización de las vistas con React y también es compatible con las vistas de CodeIgniter predeterminadas.
+
+###################
+Cómo empezar
+###################
+Simplemente verifique la aplicación / controllers / Welcome.php, y llame a `$ this-> render_view (cadena $ view_name,? Array $ vars); función '` para representar cualquier vista.
+
+El archivo de vista en reaccion debe residir en `asset / js / react / components / $ view_name.js`
+
+
+
+###################
+¿Qué es CodeIgniter?
+###################
+
+CodeIgniter es un marco de desarrollo de aplicaciones, un conjunto de herramientas, para personas
+quienes construyen sitios web usando PHP. Su objetivo es permitirte desarrollar proyectos.
+mucho más rápido de lo que podría si estuviera escribiendo código desde cero, proporcionando
+un rico conjunto de bibliotecas para tareas comúnmente necesarias, así como un simple
+Interfaz y estructura lógica para acceder a estas bibliotecas. CodeIgniter permite
+se enfoca creativamente en su proyecto al minimizar la cantidad de código necesario
+para una tarea dada.
 
 *******************
-Release Information
+Información de liberación
 *******************
 
-This repo contains in-development code for future releases. To download the
-latest stable release please visit the `CodeIgniter Downloads
-<https://codeigniter.com/download>`_ page.
+Este repositorio contiene código en desarrollo para futuras versiones. Para descargar el
+última versión estable por favor visite el `CodeIgniter Downloads
+<https://codeigniter.com/download> `_ page.
 
 **************************
-Changelog and New Features
+Changelog y nuevas características
 **************************
 
-You can find a list of all changes for each release in the `user
-guide change log <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/changelog.rst>`_.
+Puede encontrar una lista de todos los cambios para cada versión en `user
+guia de registro de cambios <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/changelog.rst> `_.
 
 *******************
-Server Requirements
+Requisitos del servidor
 *******************
 
-PHP version 5.6 or newer is recommended.
+Se recomienda la versión de PHP 5.6 o más reciente.
 
-It should work on 5.3.7 as well, but we strongly advise you NOT to run
-such old versions of PHP, because of potential security and performance
-issues, as well as missing features.
+También debería funcionar en 5.3.7, pero le recomendamos encarecidamente que NO ejecute
+Tales versiones antiguas de PHP, debido a la potencial seguridad y rendimiento
+problemas, así como las características que faltan.
 
 ************
-Installation
+Instalación
 ************
 
-Please see the `installation section <https://codeigniter.com/user_guide/installation/index.html>`_
-of the CodeIgniter User Guide.
-
-*******
-License
-*******
-
-Please see the `license
-agreement <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/license.rst>`_.
-
-*********
-Resources
-*********
-
--  `User Guide <https://codeigniter.com/docs>`_
--  `Language File Translations <https://github.com/bcit-ci/codeigniter3-translations>`_
--  `Community Forums <http://forum.codeigniter.com/>`_
--  `Community Wiki <https://github.com/bcit-ci/CodeIgniter/wiki>`_
--  `Community IRC <https://webchat.freenode.net/?channels=%23codeigniter>`_
-
-Report security issues to our `Security Panel <mailto:security@codeigniter.com>`_
-or via our `page on HackerOne <https://hackerone.com/codeigniter>`_, thank you.
-
-***************
-Acknowledgement
-***************
-
-The CodeIgniter team would like to thank EllisLab, all the
-contributors to the CodeIgniter project and you, the CodeIgniter user.
+Consulte la sección `instalación <https://codeigniter.com/user_guide/installation/index.html>` _
+de la guía de usuario de CodeIgniter.
